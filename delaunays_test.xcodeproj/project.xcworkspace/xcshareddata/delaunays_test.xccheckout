@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D7C7CEC2-BFAC-4D7A-868D-71ACD623EFEB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>delaunays_test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FBF4E2841772A3AD4C04945559C17A6F71B4392E</key>
+		<string>https://github.com/assassin3120/delaunays_test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>delaunays_test.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FBF4E2841772A3AD4C04945559C17A6F71B4392E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/assassin3120/delaunays_test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FBF4E2841772A3AD4C04945559C17A6F71B4392E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FBF4E2841772A3AD4C04945559C17A6F71B4392E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>delaunays_test</string>
+		</dict>
+	</array>
+</dict>
+</plist>

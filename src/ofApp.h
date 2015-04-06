@@ -3,7 +3,6 @@
 #include "ofMain.h"
 #include "ofxCv.h"
 #include "ofxDelaunay.h"
-#include <vector>
 
 class ofApp : public ofBaseApp{
     
@@ -26,5 +25,5 @@ public:
     ofxDelaunay delaunay;
     ofVideoPlayer video;
     
-    std::vector<int *> pts;
+    vector<ofVec3f> pts;
 };

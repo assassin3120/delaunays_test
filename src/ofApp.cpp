@@ -6,20 +6,22 @@ void ofApp::setup(){
     ofBackground(0);
     
     video.loadMovie("train.mov");
+    video.play();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    video.update();
     
     flow.calcOpticalFlow(video.getPixelsRef());
     
     pts.clear();
-    pts; flow.getFeatures();
+    pts = flow.getFeatures();
     
     delaunay.reset();
     if (pts.size() > 15) {
         for (int i = 0; i < pts.size(); i+=5) {
-            delaunay.addPoint(ofPoint(*pts[i]));
+            delaunay.addPoint(ofPoint(pts[i]));
         }
         delaunay.triangulate();
     }
